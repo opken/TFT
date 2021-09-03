@@ -1,0 +1,45 @@
+.champ {
+    border: solid black 1px;
+    width: 130px;
+    height: 200px;
+    position: relative;
+}
+.bottom {
+    position: absolute;
+    bottom: 0%;
+    color: white;
+    width: 100%;
+    border-top: 2px black solid;
+}
+.name {
+    float: left;
+    padding-left: 5px;
+  
+}
+.cost {
+    float: right;  
+    padding-right: 5px;
+  
+}
+.traits {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    color: white;
+    font-size: 12px;
+    
+}
+img {
+    height: 58%;
+    width: 100%;
+}
+.trait_icon {
+    width: 25px;
+    height: 25px;
+    color:rgb(238, 199, 26)y
+}
+.trait_text {
+   padding-left: 5px;
+   margin-top: auto;
+   margin-bottom: auto;
+}
