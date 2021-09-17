@@ -8,8 +8,62 @@
     <script src='client.js'></script>
 </head>
 <body>
-    <div id="board"></div>
+    <div class="container">
+        <div class="row" id="shop">
+            <div id="bench">
+                <div id="bench0" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench1" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench2" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench3" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>   
+                <div id="bench4" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench5" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench6" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench7" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div id="bench8" class="bench" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="col"> 
+                <button onclick="createShop()"> Roll</button>
+                <button> Level</button>
+                <div id='sell'ondragover="allowDrop(event)" ondrop="sell(event)">DRAG HERE TO SELL</div>
+            </div>
+            <div id='champ0' class="col" onclick="buy(event)">
+            
+             </div>
+            <div id='champ1' class="col" onclick="buy(event)">
+            
+            </div>
+            <div id='champ2' class="col" onclick="buy(event)">
+            
+            </div>
+            <div id='champ3' class="col" onclick="buy(event)">
+            
+            </div>
+            <div id='champ4' class="col" onclick="buy(event)">
+            
+          </div>
+          <div class="col" >
+            
+        </div>
+        </div>
+      </div>
+
+   
+    <div class="row">
+        <div class="col-3">
+            <div id="synergies" ></div>
+        </div>
+        <div class="col-8" id="board">
+            
+        </div>
+        <div class="col-1" id="stat"> 
+            Stat
+        </div>
+    </div>
     <script>
-        main()
+        getChampJSON()
+        getTraitJSON()
+        createShop()
+        createBoard()
     </script>
 </body>

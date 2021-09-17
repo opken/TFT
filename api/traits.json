@@ -6,17 +6,17 @@
     "type": "origin",
     "sets": [
       {
-        "style": "silver",
+        "style": "bronze",
         "min": 3,
         "max": 3
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 4,
         "max": 4
       },
       {
-        "style": "chromatic",
+        "style": "gold",
         "min": 5
       }
     ]
@@ -56,12 +56,12 @@
         "max": 3
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 4,
         "max": 5
       },
       {
-        "style": "chromatic",
+        "style": "gold",
         "min": 6
       }
     ]
@@ -113,12 +113,12 @@
         "max": 3
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 4,
         "max": 5
       },
       {
-        "style": "chromatic",
+        "style": "gold",
         "min": 6
       }
     ]
@@ -257,7 +257,7 @@
         "max": 3
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 4
       }
     ]
@@ -274,12 +274,12 @@
         "max": 2
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 3,
         "max": 3
       },
       {
-        "style": "chromatic",
+        "style": "gold",
         "min": 4
       }
     ]
@@ -377,12 +377,12 @@
         "max": 5
       },
       {
-        "style": "silver",
+        "style": "gold",
         "min": 6,
         "max": 7
       },
       {
-        "style": "gold",
+        "style": "chromatic",
         "min": 8
       }
     ]
@@ -399,12 +399,12 @@
         "max": 3
       },
       {
-        "style": "gold",
+        "style": "silver",
         "min": 4,
         "max": 5
       },
       {
-        "style": "chromatic",
+        "style": "gold",
         "min": 6
       }
     ]

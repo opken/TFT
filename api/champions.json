@@ -1,11 +1,5 @@
 [
   {
-    "name": "Target Dummy",
-    "championId": "TFT_TrainingDummy",
-    "cost": 2,
-    "traits": []
-  },
-  {
     "name": "Aatrox",
     "championId": "TFT5_Aatrox",
     "cost": 1,
@@ -201,7 +195,7 @@
     ]
   },
   {
-    "name": "Kha'Zix",
+    "name": "KhaZix",
     "championId": "TFT5_Khazix",
     "cost": 1,
     "traits": [
