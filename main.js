@@ -160,7 +160,7 @@ function getRandomInt(max) {
 
 app.get('/', (req, res) => {
     res.send('hi')
-    console.log('ie')
+    console.log('test git')
 })
 app.use(express.static('static'));
 app.listen(port, host, () => {
