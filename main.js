@@ -50,6 +50,7 @@ function shuffleChamps() {
     champcost3 = shuffle(champcost3);
     champcost4 = shuffle(champcost4);
     champcost5 = shuffle(champcost5);
+    // test
 }
 app.use(cors())
 app.get('/champions', (req,res) => {
